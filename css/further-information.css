@@ -1,0 +1,64 @@
+/* General */
+* {
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+   font-family: 'Open Sans', sans-serif;
+}
+
+/* Headers */
+main{
+    float: left;
+    width: 90%;
+}
+sidebar{
+    float: left;
+    width 10%;
+}
+header{
+    text-align: center;
+    color: #201F43;
+    background-color:#F4F6FE;
+    font-size: 30px;
+    padding: 2%;
+}
+footer{
+    clear: both;
+    height: 2em;
+    background-color:#F4F6FE;
+    color: #201F43;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* articles */
+.information{
+    float: left;
+    width: 50%;
+}
+
+#dark{
+ background-color: #201F43;
+}
+#white{
+    background-color: #F4F6FE;
+}
+#blue{
+    background-color: #2341D8;
+}
+
+
+#firstpic{
+    background-image: url("https://www.socialtalent.co/wp-content/uploads/2016/04/womancode.jpg");
+    background-size: cover;
+    max-width: 100%;
+    height: 275px;
+}
+#firstpic:hover{
+    background-color: #2341D8
+}
+
+    
