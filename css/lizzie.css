@@ -215,6 +215,18 @@ span {
     border-left: 60px solid gray;
 }*/
 
+/*************************
+Styling for tech companies
+**************************/
+
+.containerTop, .containerBottom {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    color: #F4F6FE;
+    text-align: center;
+    background-color: #201F43;
+}
 
 /**************************
 Styling for 'Answer field'
