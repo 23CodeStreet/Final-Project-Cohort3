@@ -30,7 +30,7 @@ Styling for 'H1'
 *****************/
 
 
-h1 {
+h1, h4 {
     margin: 0 auto;
     margin-top: 10%;
     font-size: 1.5em;
@@ -109,6 +109,10 @@ Styling for 'Bar Chart'
 Styling for 'Pie Chart'
 ***********************/
 
+/********************************
+to cancel out styles in bar chart
+********************************/
+
 ul li { 
     list-style: none;
     margin: 0 auto;
@@ -116,24 +120,100 @@ ul li {
     overflow: hidden;
 }
 
+/*********************
+the hole in the middle
+**********************/
+
 .pieChart {
     width: 200px;
     height: 200px;
-    display: block;
     margin: 0 auto;
     border-radius: 200px;
     border: 3px solid #fff;
     background-color: #fff;
 }
 
-.segment {
+/***********
+top segment
+***********/
+
+.segmentOne {
+    width: 1;
+    height: 1;
+    border-top: 60px solid gray;
+}
+
+/***********
+right segment
+***********/
+
+.segmentTwo {
+    width: 1;
+    height: 1;
+    border-right: 60px solid #000;
+}
+
+/***********
+bottom segment
+***********/
+
+.segmentThree {
+    width: 1;
+    height: 1;
+    border-bottom: 60px solid #2341D8;
+}
+
+/***********
+left segment
+***********/
+
+.segmentFour {
+    width: 1;
+    height: 1;
+    border-left: 60px solid #201F43;
+}
+
+.percent {
+    width: 200px;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+    /*border-radius: 25px;*/
+}
+
+.five {
+    border: 3px solid gray;
+    background-color: gray;
+}
+
+.ten {
+    border: 3px solid #000;
+    background-color: #000;
+}
+
+.fifteen {
+    border: 3px solid #2341D8;
+    background-color: #2341D8;
+}
+
+.twenty {
+    border: 3px solid #201F43;
+    background-color: #201F43;
+}
+
+span {
+    color: #F4F6FE;
+}
+
+
+/*.segment {
     width: 1;
     height: 1;
     border-top: 60px solid #201F43;
-    border-right: 60px solid #2341D8;
-    border-bottom: 60px solid #201F43;
-    border-left: 60px solid #2341D8;
-}
+    border-right: 60px solid #000;
+    border-bottom: 60px solid #2341D8;
+    border-left: 60px solid gray;
+}*/
 
 
 /**************************
