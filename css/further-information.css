@@ -5,11 +5,9 @@
 img{
     max-width: 100%;
 }
-body{
-   font-family: 'Open Sans', sans-serif;
-}
 
 /* Headers */
+/*
 main{
     float: left;
     width: 90%;
@@ -32,6 +30,7 @@ footer{
     text-align: center;
     font-size: 12px;
 }
+*/
 
 /* divs */
 .view {
