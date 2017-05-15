@@ -47,8 +47,8 @@ footer{
     cursor: default;
 }
 .view .mask, .view .content {
-    width: 300px;
-    height: 200px;
+    width: 280px;
+    height: 180px;
     position: absolute;
     overflow: hidden;
     top: 0;
@@ -79,7 +79,7 @@ footer{
 .view a.info {
     display: inline-block;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 12px;
     text-transform: uppercase;
     padding: 7px 14px;
     background: #2341D8;
