@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="css/lizzie.css">
     </head>
     <body>
-        <header id="logo">Logo</header>
+        <header id="logo">LOGO</header>
         <nav id="nav">
             <ul>
                 <li>Home</li>
@@ -26,34 +26,17 @@
         <img id="navbutton" src="img/hamburger-48.png" alt="navigation">
         <section id="">            
             <article>
-                    <h1> Of the 8 largest tech companies which was named as more diverse in 2015?</h1>
-
-             <section>
-                <ul class="companies">
-                    <li id="ebay" class="containerTop">ebay</li>
-                    <li class="containerTop company">Apple</li>
-                    <li class="containerTop company">LinkedIn</li>
-                    <li class="containerTop company">Google</li>
+                    <h1>What percentage of leadership positions, in the technology industry, are held by women?</h1>
+                <h4>Choose your slice of pie!</h4>
+                <div class="pieChart segmentOne segmentTwo segmentThree segmentFour">
+                </div>
+                <ul>
+                    <li class="five percent">
+                    <span>1% - 5%</span></li>
+                    <li class="ten percent"><span>6% - 10%</span></li>
+                    <li class="fifteen percent"><span>11% - 15%</span></li>
+                    <li class="twenty percent"><span>16% - 20%</span></li>
                 </ul>
-                <ul class="companies">
-                    <li class="containerBottom company">Microsoft</li>
-                    <li class="containerBottom company">YAHOO</li>
-                    <li class="containerBottom company">Facebook</li>
-                    <li class="containerBottom company">Twitter</li>
-                </ul>
-              </section>
-                
-                <h1>What percentage of it's staff were women?</h1>
-                
-            <section>
-                <ul class="percentageStaff">
-                    <li class="containerTop staff">12%</li>
-                    <li id="twentyFour" class="containerTop">24%</li>
-                    <li class="containerTop staff">36%</li>
-                    <li class="containerTop staff">48%</li>
-                </ul>
-            </section>
-                
                 <p id="answer"></p>
             </article>
             <button id="question">Next Question</button>

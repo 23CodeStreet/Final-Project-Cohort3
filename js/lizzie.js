@@ -31,8 +31,8 @@ $(document).ready(function(){
     })
     
     //animation for pie chart
-    $(".segmentOne").click(function(){
-        $(".segmentOne").addClass("animated slideOutUp");
+    $(".percent").click(function(){
+        $(".pieChart").addClass("animated rotateIn");
     })
     
     //if wrong answer selected on pie chart
@@ -80,23 +80,101 @@ $(document).ready(function(){
         $("#twentyFour").addClass("animated flip");
     })
     
+    /*$("#flip").click(function(){
+        $("#panel").slideDown(5000);
+    });
+    $("#stop").click(function(){
+        $("#panel").stop();
+    });*/
+    
+    
+    //counter for 238% female increase
+    
+    //$(selector).action(call function)
+    
+   
         
+    $('#startButton').click(function one(){
+        $('#one').css('background-color', '#040716');
+        setTimeout(two, 3000)
+    });
+    
+    function two(){
+        $('#two').css('background-color', '#070d2c');
+        setTimeout(three, 3000);
+    }
+    
+    function three(){
+        $('#three').css('background-color', '#0b1442');
+        setTimeout(four, 3000);
+    }
+    
+    function four(){
+        $('#four').css('background-color', '#0e1b58');
+        setTimeout(five, 3000);
+    }
+    
+    function five(){
+        $('#five').css('background-color', '#12216e');
+        setTimeout(six, 3000);
+    }
+    
+    function six(){
+        $('#six').css('background-color', '#152884');
+        setTimeout(seven, 3000);
+    }
+    
+    function seven(){
+        $('#seven').css('background-color', '#192e9a');
+        setTimeout(eight, 3000);
+    }
+    
+    function eight(){
+        $('#eight').css('background-color', '#1d35af');
+        setTimeout(nine, 3000);
+    }
+    
+    function nine(){
+        $('#nine').css('background-color', '#203cc5');;;
+        setTimeout(ten, 3000);
+    }
+    
+    function ten(){
+        $('#ten').css('background-color', '#2341d8');
+        setTimeout(eleven, 3000);
+    }
+    
+    function eleven(){
+        $('#eleven').css('background-color', '#2442db');
+        setTimeout(twelve, 3000);
+    }
+    
+    function twelve(){
+        $('#twelve').css('background-color', '#3a55df');
+        setTimeout(thirteen, 3000);
+    }
+    
+    function thirteen(){
+        $('#thirteen').css('background-color', '#5068e2');
+        setTimeout(fourteen, 3000);
+    }
+    
+    function fourteen(){
+        $('#fourteen').css('background-color', '#657be6');
+        setTimeout(fifteen, 3000);
+    }
+    
+    function fifteen(){
+        $('#fifteen').css('background-color', '#7b8eea');
+        setTimeout(3000);
+    }
+    
+    $('#stopButton').click(function(){
+        $("#counter").stop();
+    });
+       
 });
 
-/*$("#btn1").click(function(){
-        $("#test1").text("Hello world!");
-    });
-  $(document).ready(function(){
     
-    //setTimeout(turnRed, 5000) - use this instead of button to start traffic lights when browser window opens
-    
-    $('#button').click(turnRed);
-    
-    //$(selector).action(change colour to red)
-    
-    function turnRed(){
-        $('#red').css('background-color', '#ff0000');
-        setTimeout(turnOrange, 5000)
-    }*/
 
     
