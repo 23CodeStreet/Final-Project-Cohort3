@@ -1,6 +1,101 @@
 body {
+    font-size: 22px;
+    font-family: 'Lato';
+}
+
+p {
+    font-size: 22px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    color: #201F43;
+    border-style: rounded;
+    border-color: #201F43;
+    border-width: 3px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+header {
+    font-size: 50px;
+    font-family: 'Lato';
+    color: #201F43;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+nav {
+    display: none;
+}
+
+footer  {
     font-size: 16px;
-    font-family: Verdana, sans-serif;
+    font-family: 'Lato';
+    color: #2341D8;
+    border-width: 3px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+button {
+    
+    display: block;
+    margin: 0 auto;
+    border: 20px;
+    border-style: rounded;
+    border-color: #201F43;
+
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer; padding-top: 15px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #2341D8;
+    border-color: none;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
 }
 
 .wrapper {
@@ -13,27 +108,27 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #01B6AD;
+    border-bottom: 20px solid #F4F6FE;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #01B6AD;
+    border-top: 20px solid #F4F6FE;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #0A4958;
+    background: #F4F6FE;
 }
 
 .title {
-    color: #F6E7D2;
+    color: #2341D8;
 }
 
 nav a {
-    color: #F6E7D2;
-    background: #01B6AD;
+    color: #F4F6FE;
+    background: #2341D8;
 }
 
 /* ==============
@@ -80,12 +175,12 @@ nav a:hover {
 }
 
 .main aside {
-    color: white;
+    color: #F4F6FE;
     padding: 0px 5% 10px;
 }
 
 .footer-container footer {
-    color: white;
+    color: #F4F6FE;
     padding: 20px 0;
 }
 
