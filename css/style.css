@@ -1,52 +1,76 @@
-header {
-    font-size:20px;
-    font-family: 'Lato';
-    background-color: #F4F6FE;
+* {
+	position: relative;
+}
+
+/*GENERAL TEXT STYLES*/
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
     color: #201F43;
-    padding: 10px;
-    width: 100%;
-    height: 4em;
+	line-height: 1.5;
+}
+h1 {
+	font-size: 2.4em;
+}
+h2 {
+	font-size: 2em;
+}
+h3 {
+	font-size: 1.8em;
+}
+h4 {
+	font-size: 1.6em;
+}
+h5 {
+	font-size: 1.2em;
+}
+
+
+
+/*HEADER*/
+
+header {
+	background-color: #F4F6FE;
+    color: #201F43;
+}
+
+header h1 {
+	font-weight: 900;
+	font-size: 32px;
+	width: fit-content;
+	display: inline-block;
+	/*	padding: top right bottom left;*/
+	padding: 0.2em 0.5em 0.2em 0.1em;
 }
 
 header * {
-/*vertical-align: bottom;*/
-    
+	vertical-align: middle;
 }
 
-h1 {
-    width:280px;
-    height:4em;
-    float:left;   
+#logo {
+	width:70px;
+	height:70px;
 }
-#Logo { 
-    padding: 10px;
-    width: 30%;
-    height: 4em;
-    float:left;
-    }
 
-nav {
-     display: none;
-}
-nav li {
-    padding-right: 5px;
-    padding-left:10px;
-    font-family: 'Lato';
-}
-.container {
+/*ANIMATED BURGER MENU*/
+
+.menu-container {
     display: inline-block;
     float: right;
-    cursor: pointer; padding-top: 15px;
+    cursor: pointer;
+	padding-top: 15px;
     padding-right: 5%;
-    width:auto;
-    height:4em;
+    width: fit-content;
+    height: fit-content;
 }
 
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
     background-color: #2341D8;
-    border-color: none;
+	border-radius: 3px;
     margin: 6px 0;
     transition: 0.4s;
 }
@@ -68,19 +92,84 @@ nav li {
     transform: rotate(45deg) translate(-8px, -8px) ;
 }
 
-.wrapper {
-    width: 90%;
-    margin: 0 5%;
+/*NAVIGATION*/
+nav{
+	display: none;
+	width: 100%;
+	background-color: #F4F6FE;
+    color: #201F43;
+}
+nav li {
+	list-style: none;
+	width: 23%;
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+nav a, nav a:visited, nav a:active {
+	color: #201F43;
+	font-weight: 400;
+	text-decoration: none;
 }
 
-footer{
-    clear: both;
-    height: 2em;
+/*MAIN*/
+
+main {
+/*	padding-top: 7em;*/
+}
+
+/*INDEX*/
+
+#home {
+	width: 85%;
+	margin: auto;
+	font-size: 18px;
+}
+
+#imageIndex {
+	display: block;
+	margin: auto;
+	width: 70%;
+	max-width: 550px;
+	padding: 1em;
+}
+
+#start-button {
+	width: fit-content;
+	display: block;
+	margin: auto;
+	font-family: 'Lato', sans-serif;
+  	font-size: 16px;
+  	padding: 0.5em;
+	border: 2px solid #2341D8;
+	border-radius: 5px;
+	background-color: #ccc;
+}
+
+#home a, #home a:visited, #home a:active {
+	color: #201F43;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+/*ABOUT US*/
+
+
+/*FURTHER INFO*/
+
+
+/*FOOTER*/
+
+footer {
+	clear: both;
+	width: 100%;
     background-color:#201F43;
-    font-family: 'Lato';
     color: #F4F6FE;
     text-align: center;
-    font-size: 16px;
-    padding: 2%;
-   
+}
+
+footer p {
+	padding: 0.5em;
 }
