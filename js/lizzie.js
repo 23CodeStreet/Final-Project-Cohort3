@@ -80,19 +80,35 @@ $(document).ready(function(){
         $("#twentyFour").addClass("animated flip");
     })
     
-    
-    //animation for women in leadership positions
+    //animation for True or False page
     $(".leadership").click(function(){
         $("#female").addClass("animated bounce");
     })
     
+    //if True is selected
     $("#trueButton").click(function(){
-        $("#answer").text("Yes that is correct. There are no more than 5% of women in leadership positions, in the technology industry.")
+        $("#answer").text("Yes that is correct. There are no more than 5% of women in leadership positions, in the technology industry.");
     })
     
+    //if False is selected
     $("#falseButton").click(function(){
-        $("#answer").text("No that is incorrect. There are no more than 5% of women in leadership positions, in the technology industry.")
+        $("#answer").text("No that is incorrect. There are no more than 5% of women in leadership positions, in the technology industry.");
     })
+    
+    
+    
+    
+    /*$("#flip").click(function(){
+        $("#panel").slideDown(5000);
+    });
+    $("#stop").click(function(){
+        $("#panel").stop();
+    });*/
+    
+    
+    //counter for 238% female increase
+    
+    //$(selector).action(call function)
     
     /**************************
     Counter for females in tech
@@ -124,61 +140,11 @@ $(document).ready(function(){
         }
     }
 }); 
-    
-    
-    
-    
-    
-    //**********TESTING*************
-    
-    //counter for 238% female increase
-    
-    //$(selector).action(call function)
-    
-     /*
-    So the below functions are all doing exactly the same thing over and over again. 
-    We could do this one time using a loop to target all of the elements.
-    So you are using the class 'lights'. 
-    
-    Maybe you can make one function e.g. 'startCounter' which targets the last instance of lamp (because we're counting up from the bottom)
-    
-    $('.lamp').last().css('')... etc etc
-    
-    and then do a loop 
-    for... var i is less than the number of elements with lamp class...
-
-        $(this).prevAll('.lamp:first').css(''); etc. 
         
-        And then inside the for loop you can check if the 'stop' button has been clicked. 
-        Let's say you change a variable when the stop button is clicked, the for loop can check if that variable is true / false and if it's false 
-        just break out of the loop.
-
-    
-    var lights = 15;
-    var boolean = true;
-    
-    $('#stopButton').click(function() {
-        boolean = false;
-    });
-        
-    $('#startButton').click(startCounter);
-    
-        function startCounter(){
-        $('.lights').last().css('background-color', '#040716');
-        setTimeout(3000);
-
-      /*for (var i=0; i < 15; i++){  $(this).prevAll('.lights:first').css('background-color', '#040716');
-        setTimeout(3000);
-       /*if (boolean === false) { break; } */                    
-        /*};
-    };
-});
-
-
-   /* function one(){
+    /*$('#startButton').click(function one(){
         $('#one').css('background-color', '#040716');
-        setTimeout(two, 3000);
-    }
+        setTimeout(two, 3000)
+    });
     
     function two(){
         $('#two').css('background-color', '#070d2c');
@@ -216,7 +182,7 @@ $(document).ready(function(){
     }
     
     function nine(){
-        $('#nine').css('background-color', '#203cc5');
+        $('#nine').css('background-color', '#203cc5');;;
         setTimeout(ten, 3000);
     }
     
@@ -250,13 +216,11 @@ $(document).ready(function(){
         setTimeout(3000);
     }
     
-});
-    
     $('#stopButton').click(function(){
         $("#counter").stop();
-    });*/
+    });
        
-
+});*/
 
     
 
