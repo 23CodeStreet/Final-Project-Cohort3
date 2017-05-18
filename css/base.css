@@ -20,13 +20,14 @@ p {
 }
 
 h1 {
-    width: 50%;
+/*    width: 50%;*/
 }
 
 #home {
-    clear:both
+/*    clear:both*/
 }
 
+/*
 header {
     font-size: 20px;
     font-family: 'Lato';
@@ -45,17 +46,21 @@ header * {
 nav {
     display: none;
 }
+*/
 
-button {
+.button {
     font-size: 50px;
     font-family: 'Lato';
     color: #201F43;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    border: 20px;
+    border-radius: 30px;
+    border-color: #201F43;
 }
 
+/*
 footer{
     clear: both;
     height: 2em;
@@ -69,8 +74,9 @@ footer{
     padding-bottom: 22px;
     padding-left: 15px;
 }
+*/
 
-img {
+#imageIndex {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
@@ -79,16 +85,9 @@ img {
     width: 50%;
 }
 
-button {
-    
-    display: block;
-    margin: 0 auto;
-    border: 20px;
-    border-style: rounded;
-    border-color: #201F43;
 
-}
 
+/*
 .container {
     display: inline-block;
     cursor: pointer; padding-top: 15px;
@@ -106,19 +105,25 @@ button {
     margin: 6px 0;
     transition: 0.4s;
 }
+*/
 
 /* Rotate first bar */
+/*
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
     transform: rotate(-45deg) translate(-9px, 6px) ;
+*/
 }
 
 /* Fade out the second bar */
+/*
 .change .bar2 {
     opacity: 0;
+*/
 }
 
 /* Rotate last bar */
+/*
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
@@ -128,6 +133,8 @@ button {
     width: 90%;
     margin: 0 5%;
 }
+*/
+*/
 
 /* ===================
     ALL: Orange Theme
