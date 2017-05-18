@@ -97,8 +97,7 @@ header * {
 /*NAVIGATION*/
 nav{
 	display: none;
-	width: 85%;
-    margin: auto;
+	width: 100%;
 	background-color: #F4F6FE;
     color: #201F43;
 }
@@ -131,6 +130,13 @@ main {
 	font-size: 18px;
 }
 
+#imageIndex {
+	display: block;
+	margin: auto;
+	width: 70%;
+	max-width: 550px;
+	padding: 1em;
+}
 
 #start-button {
 	width: fit-content;
@@ -151,32 +157,8 @@ main {
 	text-decoration: none;
 }
 
-#para1 {
-    text-align: center;
-}
-
-#wecandoit {
-    border-radius: 5px;
-    display: block;
-    margin: auto;
-	width: 70%;
-	max-width: 550px;
-/*	padding: 1em;*/
-}
-
 /*ABOUT US*/
 
-#aboutus {
-    font-family: 'Lato', sans-serif;
-	font-weight: 300;
-    color: #201F43;
-	line-height: 1.5;
-	font-size: 18px;
-    width: 85%;
-    margin: auto;
-    text-align: justify;
-    text-justify: inter-word; 
-}
 
 /*FURTHER INFO*/
 

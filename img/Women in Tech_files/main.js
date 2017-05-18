@@ -1,8 +1,3 @@
-//ANIMATED BURGER MENU
-	function myFunction(x) {
-		x.classList.toggle("change");
-	}
-
 $(document).ready(function () {
 	
 //Navigation slide	
@@ -10,6 +5,10 @@ $(document).ready(function () {
 		$("nav").slideToggle();
 	});
 
+//ANIMATED BURGER MENU
+	function myFunction(x) {
+		x.classList.toggle("change");
+	}
 
 //Button press shadow
 	$("#start-button").mousedown(function () {
