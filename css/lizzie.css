@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -6,7 +6,7 @@ body {
 Styling for 'Header' & 'Navigation'
 ************************************/
 
-header, nav {
+/*header, nav {
     background-color: #2341D8; 
     color: #F4F6FE;
 }
@@ -20,9 +20,17 @@ Styling for 'Navigation'
 ************************/
 
 
-nav li {
+/*nav li {
     padding-left: 4%;
     padding-bottom: 2%;
+}
+
+/****************
+General
+****************/
+
+/* {
+    box-sizing: border-box;
 }
 
 /****************
@@ -33,7 +41,7 @@ Styling for 'H1'
 h1, h4 {
     margin: 0 auto;
     margin-top: 10%;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
     color: #201F43;
 }
@@ -48,14 +56,15 @@ Styling for 'Bar Chart'
     height: 425px;
     /*border-bottom: 2px solid black;
     border-left: 2px solid black;*/
-    margin-left: 3%;
+    /*margin-left: 2%;*/
 }
 
 .chart li {
     display: inline-block;
+    /*align-content: center;
     /*top: -500px;*/
     height: 425px;
-    width: 20px;
+    width: 1.20em;
     padding: 0 25px;
     position: relative;
     vertical-align: baseline;
@@ -122,7 +131,7 @@ ul li {
 
 /*********************
 the hole in the middle
-**********************/
+**********************
 
 .pieChart {
     width: 200px;
@@ -135,7 +144,7 @@ the hole in the middle
 
 /***********
 top segment
-***********/
+***********
 
 .segmentOne {
     width: 1;
@@ -145,7 +154,7 @@ top segment
 
 /***********
 right segment
-***********/
+***********
 
 .segmentTwo {
     width: 1;
@@ -155,7 +164,7 @@ right segment
 
 /***********
 bottom segment
-***********/
+***********
 
 .segmentThree {
     width: 1;
@@ -165,7 +174,7 @@ bottom segment
 
 /***********
 left segment
-***********/
+***********
 
 .segmentFour {
     width: 1;
@@ -179,7 +188,7 @@ left segment
     height: 25px;
     display: block;
     margin: 0 auto;
-    /*border-radius: 25px;*/
+    /*border-radius: 25px;
 }
 
 .five {
@@ -228,6 +237,7 @@ Styling for tech companies
     padding-bottom: 15%;
     color: #F4F6FE;
     text-align: center;
+    font-size: 0.8em;
     background-color: #201F43;
 }
 
@@ -275,15 +285,59 @@ ul li {
 
 #startButton {
     color: #F4F6FE;
-    background-color: #201F43;
-    border: solid 2px #201F43;
+    background-color: green;
+    border: solid 2px green;
     padding: 2%;
     text-align: center;
+    font-size: 1.5em;
     display: block;
     margin: 0 auto;
-    margin-top: 20%;
-    margin-bottom: 8%;
+    margin-top: 2%;
+    margin-bottom: 4%;
 }
+
+#stopButton {
+    color: #F4F6FE;
+    background-color: firebrick;
+    border: solid 2px firebrick;
+    padding: 2%;
+    text-align: center;
+    font-size: 1.5em;
+    display: block;
+    margin: 0 auto;
+}
+
+/******************************
+Styling for women in leadership
+*******************************/
+
+#trueButton, #falseButton {
+    color: #F4F6FE;
+    padding: 2%;
+    text-align: center;
+    font-size: 1.5em;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+#trueButton {
+    background-color: #201F43;
+    border: solid 2px #201F43;
+}
+
+#falseButton {
+    background-color: #2341D8;
+    border: solid 2px #2341D8;
+}
+
+.person {
+     width: 30%;
+     height: auto;
+}
+
+
 
 
 /**************************
@@ -304,14 +358,18 @@ Styling for 'Next Question' Button
 **********************************/
 
 #question {
+    width: 50%;
+    height: auto;
+    font-size: 1em;
     color: #F4F6FE;
     background-color: #201F43;
     border: solid 2px #201F43;
-    padding: 2%;
+    padding: 4%;
     text-align: center;
+    text-decoration: none;
     display: block;
     margin: 0 auto;
-    margin-top: 20%;
+    margin-top: 5%;
     margin-bottom: 8%;
 }
 
@@ -319,7 +377,7 @@ Styling for 'Next Question' Button
 Styling for 'Footer' 
 ********************/
 
-footer {
+/*footer {
     background-color: #201F43;
     color: #F4F6FE;
     text-align: center;
@@ -327,5 +385,50 @@ footer {
 }
 
 
+/******** TABLET CODE*********/
+
+@media screen and (min-width: 768px) {
+    
+    h1 {
+        font-size: 1.25em;
+    }
+    
+    .containerTop, .containerBottom {
+        font-size: 1.5em;
+    }
+    
+    #answer {
+        font-size: 1.25em;
+    }
+    
+    #question {
+        font-size: 1.5em;
+    }
+    
+    .chart li {
+        width: 2em;
+    }
+    
+    .chart .percentage {
+        text-align: center;
+    }
+    
+    #yAxis {
+        margin-left: 18%;
+    }
+    
+    .person {
+     width: 20%;
+     height: auto;
+    }
+    
+    
+}
+
+/********* DESKTOP CODE********/
+
+@media screen and (min-width: 1024px) {
+    
+}
 
 
