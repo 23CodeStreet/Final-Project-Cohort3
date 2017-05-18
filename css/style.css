@@ -120,7 +120,8 @@ nav a, nav a:visited, nav a:active {
 /*MAIN*/
 
 main {
-/*	padding-top: 7em;*/
+	width: 100%;
+	min-height: 80vh;
 }
 
 /*INDEX*/
@@ -180,6 +181,10 @@ main {
 
 /*FURTHER INFO*/
 
+#furth-info{
+	max-width: 1000px;
+	margin: auto;
+}
 
 /*FOOTER*/
 
