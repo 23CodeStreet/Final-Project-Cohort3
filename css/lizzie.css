@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 
 /****************
 Styling for 'H1'
@@ -200,8 +204,8 @@ span {
     margin: 0 auto;
     margin-top: 8%;
     color: #F4F6FE;
-    background-color: #201F43;
-    border: solid 2px #201F43;
+    background-color: #2341D8;
+    border: solid 2px #2341D8;
     padding: 2%;
     text-align: center;
 }
@@ -209,6 +213,24 @@ span {
 #trueButton {
     margin-bottom: 8%;
 }
+
+#trueButton, #falseButton {
+    background-color: #2341D8;
+    box-shadow: 0 9px #999;
+    border-radius: 15px;
+}
+
+#trueButton:hover, #falseButton:hover {
+    background-color: #201F43;
+    border: solid 2px #201F43;
+}
+
+#trueButton:active, #falseButton:active {
+    background-color: #201F43;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
 
 
 
@@ -301,15 +323,30 @@ Styling for 'Next Question' Button
 **********************************/
 
 #question {
+    text-decoration: none;
     color: #F4F6FE;
-    background-color: #201F43;
-    border: solid 2px #201F43;
+    background-color: #2341D8;
+    border: solid 2px #2341D8;
+    box-shadow: 0 9px #999;
+    border-radius: 15px;
     padding: 2%;
+    width: 50%;
     text-align: center;
     display: block;
     margin: 0 auto;
     margin-top: 20%;
     margin-bottom: 8%;
+}
+
+#question:hover {
+    background-color: #201F43;
+    border: solid 2px #201F43;
+}
+
+#question:active {
+    background-color: #201F43;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 /*******************
@@ -321,6 +358,39 @@ footer {
     color: #F4F6FE;
     text-align: center;
     padding: 2%;
+}
+
+
+
+/* TABLET CODE*/
+
+@media screen and (min-width: 768px) {
+    .left {
+        float: left;
+        width: 50%;
+    }
+    
+    .right {
+        float: right;
+        width: 50%;
+    }
+    
+    .row:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    
+
+
+/* DESKTOP CODE*/
+
+@media screen and (min-width: 1024px) {
+    div.l3 {
+        width: 33.33%;
+        padding: 2em;
+    }
 }
 
 
