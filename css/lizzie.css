@@ -244,6 +244,12 @@ Styling for tech companies
     text-align: center;
     background-color: #201F43;
 }*/
+
+/*.techCompanyContainer {
+    width: 80%;
+    height: auto;
+}*/
+
     .responsive {
         box-sizing: border-box;
     }
@@ -391,7 +397,7 @@ footer {
     
     .responsive {
         float: left;
-        width: 50%;
+        width: 45%;
         display: inline-block;
     }
 
