@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 
 /****************
 Styling for 'H1'
@@ -238,7 +234,7 @@ span {
 Styling for tech companies
 **************************/
 
-.containerTop, .containerBottom {
+/*.containerTop, .containerBottom {
     display: inline-block;
     width: 20%;
     height: 0;
@@ -247,9 +243,21 @@ Styling for tech companies
     color: #F4F6FE;
     text-align: center;
     background-color: #201F43;
-}
+}*/
+    .responsive {
+        box-sizing: border-box;
+    }
 
+    .responsive img {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 2%;
+        border: 2px solid #201F43;
+    }
 
+    
 /********************************
 Styling for female tech positions
 *********************************/
@@ -381,15 +389,33 @@ footer {
         display: table;
     }
     
-    
+    .responsive {
+        float: left;
+        width: 50%;
+        display: inline-block;
+    }
 
+    .clearfix:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
 
 /* DESKTOP CODE*/
 
 @media screen and (min-width: 1024px) {
-    div.l3 {
-        width: 33.33%;
-        padding: 2em;
+    
+    .responsive {
+        float: left;
+        width: 24%;
+        display: inline-block;
+    }
+    
+    .clearfix:after {
+        content: "";
+        clear: both;
+        display: table;
     }
 }
 
