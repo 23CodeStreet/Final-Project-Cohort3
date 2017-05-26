@@ -1,4 +1,6 @@
-
+* {
+    border: 1px solid red;
+}
 /****************
 Styling for 'H1'
 *****************/
@@ -214,6 +216,8 @@ span {
     background-color: #2341D8;
     box-shadow: 0 9px #999;
     border-radius: 15px;
+    padding: 2%;
+    width: 50%;
 }
 
 #trueButton:hover, #falseButton:hover {
@@ -234,34 +238,85 @@ span {
 Styling for tech companies
 **************************/
 
-/*.containerTop, .containerBottom {
-    display: inline-block;
-    width: 20%;
-    height: 0;
-    padding-top: 10%;
-    padding-bottom: 15%;
+.containerBase {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+.Apple {
+    margin-top: 2%;
+    background: url("../img/apple.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Ebay {
+    background: url("../img/ebay.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Linkedin {
+    background: url("../img/linkedin.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Google {
+    background: url("../img/google.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Microsoft {
+    background: url("../img/microsoft.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Yahoo {
+    background: url("../img/yahoo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Facebook {
+    background: url("../img/facebook.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Twitter {
+    background: url("../img/twitter.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.containerPercent {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    background-color: #201F43;
     color: #F4F6FE;
     text-align: center;
-    background-color: #201F43;
-}*/
+    font-size: 2em;
+}
 
-/*.techCompanyContainer {
-    width: 80%;
-    height: auto;
-}*/
-
-    .responsive {
-        box-sizing: border-box;
-    }
-
-    .responsive img {
-        width: 80%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 2%;
-        border: 2px solid #201F43;
-    }
 
     
 /********************************
@@ -397,16 +452,22 @@ footer {
     
     .responsive {
         float: left;
-        width: 45%;
+        width: 50%;
+        height: auto;
         display: inline-block;
     }
-
-    .clearfix:after {
+    
+    .clearTablet {
+        clear: both;
+    }
+    
+    footer, #question {
         content: "";
         clear: both;
         display: table;
     }
-    
+
+}
 
 /* DESKTOP CODE*/
 
@@ -418,11 +479,11 @@ footer {
         display: inline-block;
     }
     
-    .clearfix:after {
-        content: "";
+    .clearDesktop {
         clear: both;
-        display: table;
     }
+    
+    
 }
 
 
