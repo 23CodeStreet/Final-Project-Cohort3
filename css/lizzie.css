@@ -240,7 +240,7 @@ Styling for tech companies
 
 .containerBase {
     width: 200px;
-    height: 200px;
+    height: 100px;
     border: 2px solid black;
     display: block;
     margin: 0 auto;
@@ -306,7 +306,7 @@ Styling for tech companies
 
 .containerPercent {
     width: 200px;
-    height: 200px;
+    height: 100px;
     border: 2px solid black;
     display: block;
     margin: 0 auto;
