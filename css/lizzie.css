@@ -451,14 +451,8 @@ footer {
     }
     
     .responsive {
-        float: left;
-        width: 50%;
-        height: auto;
         display: inline-block;
-    }
-    
-    .clearTablet {
-        clear: both;
+        width: 50%;
     }
     
     footer, #question {
@@ -474,15 +468,9 @@ footer {
 @media screen and (min-width: 1024px) {
     
     .responsive {
-        float: left;
-        width: 24%;
         display: inline-block;
+        width: 24%;
     }
-    
-    .clearDesktop {
-        clear: both;
-    }
-    
     
 }
 
