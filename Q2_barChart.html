@@ -9,14 +9,14 @@
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/lizzie.css">
+        <link rel="stylesheet" href="css/questions-all.css">
+		<link rel="stylesheet" href="css/question2.css">
     </head>
     <body>
 		
 		<header>
 			<img src="img/logo-cs_1024.png" alt="logo" id="logo"/>
 			<h1>Women in Tech</h1> 
-			
 
 			<div class="menu-container" onclick="myFunction(this)">
 				<div class="bar1"></div>
@@ -34,33 +34,40 @@
 				<li><a href="further-information.html">Further Information</a></li>
 			</ul>
 		</nav><br>
-  
 		
+		<main>
+			<section id="">
+				
+				<article>
+					<h2>What percentage of tech startups, across the world, are founded by women?</h2>
+					<ul class="chart">
+						<div id="yAxis"></div>
+						<li class="lightBlue height10 wrong">
+							<div class="percent">10%</div>
+						</li>
+						<li id="correct" class="navyBlue height20">
+							<div class="percent">20%</div>
+						</li>
+						<li class="lightBlue height25 wrong">
+							<div class="percent">25%</div>
+						</li>
+						<li class="navyBlue height30 wrong">
+							<div class="percent">30%</div>
+						</li>
+					</ul> 
+					<p id="answer"></p>
+				</article>
+				
+				<a href="Q3_simplePieChart.html" type="button" id="question">Next Question</a>
+
+			</section>
+		</main>
 		
-        <section id="">            
-            <article>
-                    <h1>What percentage of tech startups, across the world, are founded by women?</h1>
-                <ul class="chart">
-                    <div id="yAxis"></div>
-                    <li class="lightBlue height10 wrong">
-                        <div class="percent">10%</div>
-                    </li>
-                    <li id="correct" class="navyBlue height20">
-                        <div class="percent">20%</div>
-                    </li>
-                    <li class="lightBlue height25 wrong">
-                        <div class="percent">25%</div>
-                    </li>
-                    <li class="navyBlue height30 wrong">
-                        <div class="percent">30%</div>
-                    </li>
-                </ul> 
-                <p id="answer"></p>
-            </article>
-            <a href="simplePieChart.html" type="button" id="question">Next Question</a>
-            
-        </section>
-        <footer>&copy; Elizabeth Mawer, Sara Carty, Daisy Durling-Goode, Elisabeth Dijkgraaf 2017. 23codestreet </footer>
+		<footer>
+			<p>&copy; Elizabeth Mawer, Sara Carty, Daisy Durling-Goode &amp; Elisabeth Dijkgraaf</p>
+			<p>23 Code Street, 2017</p>
+		</footer>
+
         <script src="js/jquery-3.2.0.min.js"></script>
         <script src="js/main.js"></script>
         <script src="js/lizzie.js"></script>

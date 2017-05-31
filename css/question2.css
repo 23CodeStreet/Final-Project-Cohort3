@@ -1,0 +1,62 @@
+/***********************
+Styling for 'Bar Chart'
+***********************/
+
+.chart {
+    background: url("http://cl.ly/QSpc/bg-chart.png");
+    height: 320px;
+    margin-left: 5%;
+}
+
+.chart li {
+    display: inline-block;
+    /*top: -500px;*/
+    width: 20px;
+    padding: 0 25px;
+    position: relative;
+    vertical-align: baseline;
+    /*margin-top: 60%;*/
+}
+
+.chart .percent {
+    font-size: 20px;
+    color:  #F4F6FE;
+    opacity: .4;
+    width: 100%;
+    position: absolute;
+    align-content: center;
+}
+
+.chart .height10 {
+    height: 50px;
+}
+
+.chart .height20 {
+    height: 100px;
+}
+
+.chart .height25 {
+    height: 125px;
+}
+
+.chart .height30 {
+    height: 150px;
+}
+
+.chart .lightBlue {
+    background: #2341D8;
+    border: 1px solid #201F43;
+}
+
+.chart .navyBlue {
+    background: #201F43;
+    border: 1px solid #2341D8;
+}
+
+#yAxis {
+    display: inline-block;
+    /*top: -500px;*/
+    width: 0.25em;
+    height: 320px;
+    background-color: black;   
+}

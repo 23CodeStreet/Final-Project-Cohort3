@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en-GB">
+	<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<title>Women in Tech</title>
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+<!--		<link rel="stylesheet" href="css/normalize.css">-->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/questions-all.css">
+		<link rel="stylesheet" href="css/question3.css">
+	</head>
+	<body>
+
+		<header>
+			<img src="img/logo-cs_1024.png" alt="logo" id="logo"/>
+			<h1>Women in Tech</h1> 
+
+			<div class="menu-container" onclick="myFunction(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+
+		</header><br>
+
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about-us.html">About Us</a></li>
+				<li><a href="techCompanies.html">Quiz</a></li>
+				<li><a href="further-information.html">Further Information</a></li>
+			</ul>
+		</nav><br>
+		
+		<main>
+			
+			<h2>What percentage of women are in leadership positions, in the technology industry?</h2>
+
+			<div class="relative">
+				<ul class="container">
+					<li class="circle"></li>
+					<div id="degrees50" class="pieSlice wrongCircle">
+						<li class="semiCircle1"></li>
+					</div>    
+					<div id="degrees100" class="pieSlice correctCircle">
+						<li class="semiCircle2"></li>
+					</div>
+					<div id="degrees150" class="pieSlice wrongCircle">
+						<li class="semiCircle3"></li>
+					</div>
+					<div id="degrees200" class="pieSlice wrongCircle">
+						<li class="semiCircle4"></li>
+					</div>
+				</ul> 
+
+
+				<ul class="percentageList">
+					<div class="five">
+						<li class="pieList1">5%</li>
+					</div>
+					<div class="ten">
+						<li class="pieList1">10%</li>
+					</div>
+					<div class="fifteen">
+						<li class="pieList">15%</li>
+					</div>
+					<div class="twenty">
+						<li class="pieList1">20%</li>
+					</div>
+				</ul>
+			</div>
+
+			<div id="answer-container">
+
+				<p id="answer"></p>
+
+				<a href="Q4_pieChart.html" type="button" id="question">Next Question</a>
+
+			</div>
+		
+		</main>
+
+		<footer>
+			<p>&copy; Elizabeth Mawer, Sara Carty, Daisy Durling-Goode &amp; Elisabeth Dijkgraaf</p>
+			<p>23 Code Street, 2017</p>
+		</footer>
+
+		<script src="js/jquery-3.2.0.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/lizzie.js"></script>
+		<script src="js/simplePieChart.js"></script>
+	</body>
+</html>

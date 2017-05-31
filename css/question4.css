@@ -1,0 +1,42 @@
+/***********************
+Styling for 'Pie Chart'
+***********************/
+
+.person {
+    display: block;
+    margin: 0 auto;
+}
+
+.leadership {
+    display: block;
+    margin: 0 auto;
+    margin-top: 8%;
+    color: #F4F6FE;
+    background-color: #2341D8;
+    border: solid 2px #2341D8;
+    padding: 2%;
+    text-align: center;
+}
+
+#trueButton {
+    margin-bottom: 8%;
+}
+
+#trueButton, #falseButton {
+    background-color: #2341D8;
+    box-shadow: 0 9px #999;
+    border-radius: 15px;
+    padding: 2%;
+    width: 50%;
+}
+
+#trueButton:hover, #falseButton:hover {
+    background-color: #201F43;
+    border: solid 2px #201F43;
+}
+
+#trueButton:active, #falseButton:active {
+    background-color: #201F43;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
