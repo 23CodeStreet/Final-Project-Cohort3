@@ -21,6 +21,7 @@ Styling for 'Answer field'
     margin-right: 4%;
     text-align: center;
     color: #201F43;
+    font-size: 1.5em;
 }
 
 
@@ -31,6 +32,7 @@ Styling for 'Next Question' Button
 #question {
     text-decoration: none;
     color: #F4F6FE;
+    font-size: 1em;
     background-color: #2341D8;
     border: solid 2px #2341D8;
     box-shadow: 0 9px #999;
@@ -55,53 +57,41 @@ Styling for 'Next Question' Button
     transform: translateY(4px);
 }
 
-
 /* TABLET CODE*/
 
 @media screen and (min-width: 768px) {
-    .left {
-        float: left;
-        width: 50%;
+    
+    h2 {
+        font-size: 1.5em;
     }
     
-    .right {
-        float: right;
-        width: 50%;
+    #answer {
+        font-size: 1.5em;
     }
     
-    .row:after {
-        content: "";
-        clear: both;
-        display: table;
+    #question {
+        font-size: 1.5em;
     }
     
-    .responsive {
-        display: inline-block;
-        width: 50%;
-    }
-    
-    footer, #question {
-        content: "";
-        clear: both;
-        display: table;
-    }
-    
-    .chart {
-        background: url("http://cl.ly/QSpc/bg-chart.png");
-        width: 50%;
-        height: 320px;
-        margin-left: 25%;
-    }
-
 }
 
 /* DESKTOP CODE*/
 
 @media screen and (min-width: 1024px) {
     
-    .responsive {
-        display: inline-block;
-        width: 24%;
+    h2 {
+        font-size: 2em;
+    }
+    
+    #answer {
+        font-size: 2em;
+    }
+    
+    #question {
+        font-size: 1.5em;
     }
     
 }
+
+
+

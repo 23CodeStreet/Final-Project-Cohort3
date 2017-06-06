@@ -60,3 +60,53 @@ Styling for 'Bar Chart'
     height: 320px;
     background-color: black;   
 }
+
+/* TABLET CODE*/
+
+@media screen and (min-width: 768px) {
+    .left {
+        float: left;
+        width: 50%;
+    }
+    
+    .right {
+        float: right;
+        width: 50%;
+    }
+    
+    .row:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    .responsive {
+        display: inline-block;
+        width: 50%;
+    }
+    
+    footer, #question {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    .chart {
+        background: url("http://cl.ly/QSpc/bg-chart.png");
+        width: 50%;
+        height: 320px;
+        margin-left: 25%;
+    }
+
+}
+
+/* DESKTOP CODE*/
+
+@media screen and (min-width: 1024px) {
+    
+    .responsive {
+        display: inline-block;
+        width: 24%;
+    }
+    
+}

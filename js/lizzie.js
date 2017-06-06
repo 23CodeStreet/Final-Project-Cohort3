@@ -25,8 +25,13 @@ $(document).ready(function(){
     
     //**********PIE CHART***********//
     
+    //if wrong answer selected on pie chart
+    $(".wrongCircle").click(function(){
+        $("#answer").text("No that is incorrect. Only 5% of leadership positions, in the tech industry, are held by women.")
+    })
+    
     //if correct answer selected on pie chart
-    $(".correctCircle").click(function(){
+    $(".semiCircle2").click(function(){
         $("#answer").text("Yes that is correct. Only 5% of leadership positions, in the tech industry, are held by women.")
     })
     
@@ -35,10 +40,7 @@ $(document).ready(function(){
         $(".semiCircle2").addClass("animated flash");
     })
     
-    //if wrong answer selected on pie chart
-    $(".wrongCircle").click(function(){
-        $("#answer").text("No that is incorrect. Only 5% of leadership positions, in the tech industry, are held by women.")
-    })
+    
 
     //**********TECH COMPANIES***********//
     
@@ -86,7 +88,7 @@ $(document).ready(function(){
     
     //if False is selected
     $("#falseButton").click(function(){
-        $("#answer").text("No that is incorrect. In the 8 largest tech companies, female tech positions are growing 238% faster than male positions!.");
+        $("#answer").text("No that is incorrect. In the 8 largest tech companies, female tech positions are growing 238% faster than male positions!");
     })
     
 });

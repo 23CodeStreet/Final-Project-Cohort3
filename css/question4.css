@@ -1,5 +1,5 @@
 /***********************
-Styling for 'Pie Chart'
+Styling for 'True/False'
 ***********************/
 
 .person {
@@ -23,6 +23,7 @@ Styling for 'Pie Chart'
 }
 
 #trueButton, #falseButton {
+    font-size: 1em;
     background-color: #2341D8;
     box-shadow: 0 9px #999;
     border-radius: 15px;
@@ -39,4 +40,62 @@ Styling for 'Pie Chart'
     background-color: #201F43;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+}
+
+/* TABLET CODE*/
+
+@media screen and (min-width: 768px) {
+    .left {
+        float: left;
+        width: 50%;
+    }
+    
+    .right {
+        float: right;
+        width: 50%;
+    }
+    
+    .row:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    .responsive {
+        display: inline-block;
+        width: 50%;
+    }
+    
+    footer, #question {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    .chart {
+        background: url("http://cl.ly/QSpc/bg-chart.png");
+        width: 50%;
+        height: 320px;
+        margin-left: 25%;
+    }
+    
+    #falseButton, #trueButton {
+        font-size: 1.5em;
+    }
+
+}
+
+/* DESKTOP CODE*/
+
+@media screen and (min-width: 1024px) {
+    
+    .responsive {
+        display: inline-block;
+        width: 24%;
+    }
+    
+    #falseButton, #trueButton {
+        font-size: 1.5em;
+    }
+    
 }
