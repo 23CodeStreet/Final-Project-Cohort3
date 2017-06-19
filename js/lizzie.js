@@ -31,12 +31,12 @@ $(document).ready(function(){
     })
     
     //if correct answer selected on pie chart
-    $(".semiCircle2").click(function(){
+    $(".correctCircle").click(function(){
         $("#answer").text("Yes that is correct. Only 5% of leadership positions, in the tech industry, are held by women.")
     })
     
     //animation for pie chart
-    $(".container").click(function(){
+    $(".percentageList").click(function(){
         $(".semiCircle2").addClass("animated flash");
     })
     

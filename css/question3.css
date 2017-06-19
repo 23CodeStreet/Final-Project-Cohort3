@@ -171,5 +171,64 @@ To make the pie slice
     height: 2.5em;
 }
 
+/************
+footer
+************/
+
+.footerPieChart {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 190px;
+    }
+
+/* TABLET CODE*/
+
+@media screen and (max-width: 1024px) {
+    
+.percentageList {
+    margin-top: 500px;
+    }
+    
+    
+.nextQPieChart {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    
+.footerPieChart {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 250px;
+    }
+}
+
+/* MOBILE CODE*/
+
+@media screen and (max-width: 768px) {
+    
+.percentageList {
+    margin-top: 470px;
+    }
+   
+.nextQPieChart {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    
+.footerPieChart {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 180px;
+    }
+}
+
+};
+
+
 
 
