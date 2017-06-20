@@ -122,12 +122,10 @@ To make the pie slice
 **********/
 
 .percentageList {
-    /*margin-top: 100%;
-    margin-left: 25%;*/
+    margin-top: 10%;
     position: absolute;
     left: 50%;
-    margin-left: -80px;
-    margin-top: 490px;
+    transform: translateX(-50%);
 }
 
 .pieList {
@@ -171,61 +169,39 @@ To make the pie slice
     height: 2.5em;
 }
 
+/*************
+next question
+*************/
+
+.nextQPieChart {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    }
+
 /************
 footer
 ************/
 
 .footerPieChart {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 190px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
     }
 
 /* TABLET CODE*/
 
 @media screen and (max-width: 1024px) {
     
-.percentageList {
-    margin-top: 500px;
-    }
     
-    
-.nextQPieChart {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    }
-    
-.footerPieChart {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 250px;
-    }
+
 }
 
 /* MOBILE CODE*/
 
 @media screen and (max-width: 768px) {
     
-.percentageList {
-    margin-top: 470px;
-    }
-   
-.nextQPieChart {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    }
-    
-.footerPieChart {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 180px;
-    }
-}
+
 
 };
 
