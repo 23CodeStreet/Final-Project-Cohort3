@@ -132,26 +132,6 @@ main {
 	font-size: 18px;
 }
 
-
-#start-button {
-	width: fit-content;
-	display: block;
-	margin: auto;
-	font-family: 'Lato', sans-serif;
-  	font-size: 16px;
-    color: #F4F6FE;
-  	padding: 0.5em;
-	border: 2px solid #2341D8;
-	border-radius: 5px;
-	background-color: #201F43;
-}
-
-#home a, #home a:visited, #home a:active {
-	color: #201F43;
-	font-weight: 400;
-	text-decoration: none;
-}
-
 #para1 {
     text-align: center;
 }
@@ -163,6 +143,34 @@ main {
 	width: 70%;
 	max-width: 550px;
 /*	padding: 1em;*/
+}
+
+#start-button {
+    text-decoration: none;
+    color: #F4F6FE;
+    font-size: 1em;
+    background-color: #2341D8;
+    border: solid 2px #2341D8;
+    box-shadow: 0 9px #999;
+    border-radius: 15px;
+    padding: 2%;
+    width: fit-content;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+/*    margin-top: 20%;*/
+/*    margin-bottom: 8%;*/
+}
+
+#start-button:hover {
+    background-color: #201F43;
+    border: solid 2px #201F43;
+}
+
+#start-button:active {
+    background-color: #201F43;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 /*ABOUT US*/

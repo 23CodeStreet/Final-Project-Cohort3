@@ -12,12 +12,12 @@ $(document).ready(function () {
 
 
 //Button press shadow
-	$("#start-button").mousedown(function () {
-		$(this).css("background-color", "#999");
-	});
-	$("#start-button").mouseup(function () {
-		$(this).css("background-color", "#ccc");
-	});
+//	$("#start-button").mousedown(function () {
+//		$(this).css("background-color", "#999");
+//	});
+//	$("#start-button").mouseup(function () {
+//		$(this).css("background-color", "#ccc");
+//	});
 	
 	
 	

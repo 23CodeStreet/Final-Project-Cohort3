@@ -38,7 +38,7 @@ Styling for 'Next Question' Button
     box-shadow: 0 9px #999;
     border-radius: 15px;
     padding: 2%;
-    width: 50%;
+    width: fit-content;
     text-align: center;
     display: block;
     margin: 0 auto;
