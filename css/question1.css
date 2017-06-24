@@ -105,7 +105,7 @@ Styling for tech companies
         width: 50%;
     }
     
-    footer, #question {
+    footer, .question {
         content: "";
         clear: both;
         display: table;

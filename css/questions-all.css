@@ -29,7 +29,7 @@ Styling for 'Answer field'
 Styling for 'Next Question' Button
 **********************************/
 
-#question {
+.question {
     text-decoration: none;
     color: #F4F6FE;
     font-size: 1em;
@@ -46,12 +46,12 @@ Styling for 'Next Question' Button
     margin-bottom: 8%;
 }
 
-#question:hover {
+.question:hover {
     background-color: #201F43;
     border: solid 2px #201F43;
 }
 
-#question:active {
+.question:active {
     background-color: #201F43;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
@@ -69,7 +69,7 @@ Styling for 'Next Question' Button
         font-size: 1.5em;
     }
     
-    #question {
+    .question {
         font-size: 1.5em;
     }
     
@@ -87,7 +87,7 @@ Styling for 'Next Question' Button
         font-size: 2em;
     }
     
-    #question {
+    .question {
         font-size: 1.5em;
     }
     

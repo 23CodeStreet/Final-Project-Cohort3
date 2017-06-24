@@ -8,20 +8,22 @@ $(document).ready(function(){
     
    //**********BAR CHART***********//
    
-   //if wrong answer selected on bar chart
-    $(".wrong").click(function(){
-        $("#answer").text("No that is incorrect. Only 20% of tech startups, across the world, are founded by women");  
+    //animation for bar chart & next question text
+
+    $("button").click(function(){
+        $("span").text("Next Question")
+        $("#submitTwo").attr("href", "Q3_simplePieChart.html")
+        $("#correct").addClass("animated flash")
     })
-    
-    //if correct answer selected on bar chart
-    $("#correct").click(function(){
-        $("#answer").text("Yes that is correct.  Only 20% of tech startups, across the world, are founded by women");
-    })
-    
-    //animation for bar chart
-    $(".chart").click(function(){
-        $("#correct").addClass("animated flash");
-    })
+        
+$("#correct" && "button").click(function(){
+            $("#answer").text("Yes that is correct.  Only 20% of tech startups, across the world, are founded by women");
+            })   
+                                  
+$(".wrong" && "button").click(function(){
+            $("#answer").text("No that is incorrect. Only 20% of tech startups, across the world, are founded by women");
+            })
+
     
     //**********PIE CHART***********//
     
@@ -77,19 +79,20 @@ $(document).ready(function(){
     //**********TRUE OR FALSE***********//
     
     //animation for True or False page
-    $(".leadership").click(function(){
+    $(".question").click(function(){
         $("#female").addClass("animated bounce");
     })
     
     //if True is selected
-    $("#trueButton").click(function(){
+    $("").click(function(){
         $("#answer").text("Yes that is correct. In the 8 largest tech companies, female tech positions are growing 238% faster than male positions!");
     })
     
     //if False is selected
-    $("#falseButton").click(function(){
+    $("").click(function(){
         $("#answer").text("No that is incorrect. In the 8 largest tech companies, female tech positions are growing 238% faster than male positions!");
     })
+    
     
 });
     

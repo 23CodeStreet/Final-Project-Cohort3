@@ -85,7 +85,7 @@ Styling for 'Bar Chart'
         width: 50%;
     }
     
-    footer, #question {
+    footer, .question {
         content: "";
         clear: both;
         display: table;
