@@ -15,11 +15,14 @@ $(document).ready(function(){
         $("#submitTwo").attr("href", "Q3_simplePieChart.html")
         $("#correct").addClass("animated flash")
     })
-        
+ 
+//if correct answer selected on bar chart
+    
 $("#correct" && "button").click(function(){
             $("#answer").text("Yes that is correct.  Only 20% of tech startups, across the world, are founded by women");
             })   
-                                  
+
+//if wrong answer selected on bar chart                            
 $(".wrong" && "button").click(function(){
             $("#answer").text("No that is incorrect. Only 20% of tech startups, across the world, are founded by women");
             })
@@ -27,22 +30,26 @@ $(".wrong" && "button").click(function(){
     
     //**********PIE CHART***********//
     
-    //if wrong answer selected on pie chart
-    $(".wrongCircle").click(function(){
+//if wrong answer selected on pie chart
+
+$(".wrongCircle" && "button").click(function(){
         $("#answer").text("No that is incorrect. Only 5% of leadership positions, in the tech industry, are held by women.")
     })
     
-    //if correct answer selected on pie chart
-    $(".correctCircle").click(function(){
+//if correct answer selected on pie chart
+
+$(".correctCircle" && "button").click(function(){
         $("#answer").text("Yes that is correct. Only 5% of leadership positions, in the tech industry, are held by women.")
     })
     
-    //animation for pie chart
-    $(".percentageList").click(function(){
+ //animation for pie chart & next question text
+
+$("button").click(function(){
+        $("span").text("Next Question")
+        $("#submitThree").attr("href", "Q4_pieChart.html")
         $(".semiCircle2").addClass("animated flash");
     })
-    
-    
+
 
     //**********TECH COMPANIES***********//
     
