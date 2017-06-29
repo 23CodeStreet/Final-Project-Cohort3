@@ -14,6 +14,9 @@ $(document).ready(function(){
         $("span").text("Next Question")
         $("#submitTwo").attr("href", "Q3_simplePieChart.html")
         $("#correct").addClass("animated flash")
+        $("button").click(function(){
+ window.location.replace('Q3_simplePieChart.html')
+        })
     })
  
 //if correct answer selected on bar chart
@@ -46,8 +49,11 @@ $(".correctCircle" && "button").click(function(){
 
 $("button").click(function(){
         $("span").text("Next Question")
-        $(".semiCircle2").addClass("animated flash");
+        $(".semiCircle2").addClass("animated flash")
+          $("button").click(function(){
+  window.location.replace('Q4_pieChart.html')
     })
+})
 
 
 
@@ -79,6 +85,9 @@ $("button").click(function(){
         $("span").text("Next Question")
         $("#ebay").addClass("animated flip")
         $("#twentyFour").addClass("animated flip");
+          $("button").click(function(){
+  window.location.replace('Q2_barChart.html')
+        })
     })
 
     
@@ -97,9 +106,11 @@ $("button").click(function(){
     //animation for True or False page
     $("button").click(function(){
         $("span").text("Next Question")
-        $("#female").addClass("animated bounce")    
+        $("#female").addClass("animated bounce")
+        $("button").click(function(){
+            window.location.replace('further-information.html')
+        })
     })
-
     
 });
     
