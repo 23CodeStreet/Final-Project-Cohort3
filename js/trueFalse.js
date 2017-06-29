@@ -19,7 +19,7 @@ $(document).ready(function(){
     
     //animation for True or False page
     $("button").click(function(){
-        $("span").text("Next Question")
+        $("span").text("Further Information")
         $("#female").addClass("animated bounce")
         $("button").click(function(){
             window.location.replace('further-information.html')
