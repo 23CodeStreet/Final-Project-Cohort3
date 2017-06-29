@@ -84,11 +84,6 @@ $("button").click(function(){
     
     //**********TRUE OR FALSE***********//
     
-    //animation for True or False page
-    $(".question").click(function(){
-        $("#female").addClass("animated bounce");
-    })
-    
     //if True is selected
     $("").click(function(){
         $("#answer").text("Yes that is correct. In the 8 largest tech companies, female tech positions are growing 238% faster than male positions!");
@@ -99,6 +94,12 @@ $("button").click(function(){
         $("#answer").text("No that is incorrect. In the 8 largest tech companies, female tech positions are growing 238% faster than male positions!");
     })
     
+    //animation for True or False page
+    $("button").click(function(){
+        $("span").text("Next Question")
+        $("#female").addClass("animated bounce")    
+    })
+
     
 });
     
