@@ -54,22 +54,22 @@ $("button").click(function(){
     //**********TECH COMPANIES***********//
     
     //if correct tech company is selected
-    $("#ebay").click(function(){
+    $("").click(function(){
         $("#answer").text("Yes that is correct. In 2015 Ebay was named as a more diverse company.")
     })
     
     //if incorrect tech company is selected
-    $(".company").click(function(){
+    $("").click(function(){
         $("#answer").text("No that is incorrect. In 2015 Ebay was named as a more diverse company.")
     })
     
      //if correct % of staff is selected
-    $("#twentyFour").click(function(){
+    $("").click(function(){
         $("#answer").text("Yes that is correct. 24% of Ebay's staff were women.")
     })
     
     //if incorrect % of staff is selected
-    $(".staff").click(function(){
+    $("").click(function(){
         $("#answer").text("No that is incorrect. 24% of Ebay's staff were women.")
     })
     
