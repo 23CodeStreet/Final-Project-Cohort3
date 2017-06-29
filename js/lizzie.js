@@ -46,9 +46,9 @@ $(".correctCircle" && "button").click(function(){
 
 $("button").click(function(){
         $("span").text("Next Question")
-        $("#submitThree").attr("href", "Q4_pieChart.html")
         $(".semiCircle2").addClass("animated flash");
     })
+
 
 
     //**********TECH COMPANIES***********//
@@ -73,15 +73,14 @@ $("button").click(function(){
         $("#answer").text("No that is incorrect. 24% of Ebay's staff were women.")
     })
     
-    //animation for ebay
-    $(".companies").click(function(){
-        $("#ebay").addClass("animated flip");
-    })
-    
-    //animation for percentage of staff 
-    $(".percentageStaff").click(function(){
+    //animation for tech companies & next question text
+
+    $("button").click(function(){
+        $("span").text("Next Question")
+        $("#ebay").addClass("animated flip")
         $("#twentyFour").addClass("animated flip");
     })
+
     
     //**********TRUE OR FALSE***********//
     
