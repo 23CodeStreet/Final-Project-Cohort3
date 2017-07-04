@@ -61,6 +61,14 @@ Styling for 'Bar Chart'
     background-color: black;   
 }
 
+#answer {
+    margin-top: 5%;
+}
+
+button {
+    margin-top: 0;
+}
+
 /* TABLET CODE*/
 
 @media screen and (min-width: 768px) {
