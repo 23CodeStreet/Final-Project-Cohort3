@@ -2,9 +2,14 @@
 Styling for 'True/False'
 ***********************/
 
+.questionFour {
+    margin-bottom: 0%;
+}
+
 .person {
     display: block;
     margin: 0 auto;
+    transform: scale(0.75);
 }
 
 .leadership {
@@ -19,7 +24,13 @@ Styling for 'True/False'
 }
 
 #trueButton {
-    margin-bottom: 8%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#falseButton {
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 #trueButton, #falseButton {
@@ -41,6 +52,11 @@ Styling for 'True/False'
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
+#answer {
+    margin-top: 5%;
+}
+
 
 /* TABLET CODE*/
 
