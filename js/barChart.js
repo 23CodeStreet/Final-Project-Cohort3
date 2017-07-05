@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 $(".wrong").click(function(){
     $("button").click(function(){
-        $("#answer").text("No that is incorrect. Only 20% of tech startups, across the world, are founded by women");
+        $("#answer").text("No that is incorrect.  20% of tech startups, across the world, are founded by women");
         $("span").text("Next Question")
         $("#correct").addClass("animated flash")
         $("button").click(function(){
@@ -24,7 +24,7 @@ $(".wrong").click(function(){
 //if corrct answer selected on bar chart
 $("#correct").click(function(){
     $("button").click(function(){
-        $("#answer").text("Yes that is correct.  Only 20% of tech startups, across the world, are founded by women");
+        $("#answer").text("Yes that is correct.  20% of tech startups, across the world, are founded by women");
         $("span").text("Next Question")
         $("#correct").addClass("animated flash")
         $("button").click(function(){
