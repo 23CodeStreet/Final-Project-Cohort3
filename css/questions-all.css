@@ -16,9 +16,10 @@ Styling for 'Answer field'
 
 #answer {
     margin: 0 auto;
-    margin-top: 30%;
+    margin-top: 4%;
     margin-left: 4%;
     margin-right: 4%;
+    margin-bottom: 4%;
     text-align: center;
     color: #201F43;
     font-size: 1.5em;
@@ -42,7 +43,7 @@ Styling for 'Next Question' Button
     text-align: center;
     display: block;
     margin: 0 auto;
-    margin-top: 20%;
+    margin-top: 2%;
     margin-bottom: 8%;
 }
 
