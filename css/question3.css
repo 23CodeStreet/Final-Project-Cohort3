@@ -122,7 +122,7 @@ To make the pie slice
 **********/
 
 .percentageList {
-    margin-top: 10%;
+    margin-top: 5%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -201,8 +201,7 @@ footer
 
 @media screen and (max-width: 768px) {
     
-
-
+    
 };
 
 

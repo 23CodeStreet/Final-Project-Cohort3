@@ -14,7 +14,7 @@ $(".correctCircle").click(function(){
         $("#answer").text("Yes that is correct. Only 5% of leadership positions, in the tech industry, are held by women.")
         $("span").text("Next Question")
         $(".semiCircle2").addClass("animated flash")
-        
+      $(".five").addClass("animated flash")
         $("button").click(function(){
   window.location.replace('Q4_pieChart.html')
         })
@@ -29,7 +29,7 @@ $("button").click(function(){
         $("#answer").text("No that is incorrect. Only 5% of leadership positions, in the tech industry, are held by women.")
         $("span").text("Next Question")
         $(".semiCircle2").addClass("animated flash")
-        
+      $(".five").addClass("animated flash")
           $("button").click(function(){
   window.location.replace('Q4_pieChart.html')
         })
